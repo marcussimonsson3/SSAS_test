@@ -1439,6 +1439,12 @@
             }
           }
         ],
+        "measures": [
+          {
+            "name": "Quantity_measure",
+            "expression": " SUM(DimPromotion[MaxQty])"
+          }
+        ],
         "annotations": [
           {
             "name": "_TM_ExtProp_QueryDefinition",
