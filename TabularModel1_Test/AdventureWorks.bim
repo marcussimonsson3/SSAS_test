@@ -1245,6 +1245,12 @@
             }
           }
         ],
+        "measures": [
+          {
+            "name": "SumTes",
+            "expression": " SUM(DimProductCategory[ProductCategoryAlternateKey])"
+          }
+        ],
         "annotations": [
           {
             "name": "_TM_ExtProp_QueryDefinition",
